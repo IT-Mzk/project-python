@@ -8,9 +8,9 @@ if playing.lower() != "yes":
 print("Okay! Let's play =))) ")
 score = 0
 
-answer = input("Do you love me? (yes/no) ")
+answer = input("Do you love me? ")
 if answer.lower() == "yes":
-    print('I love you too, bae <3')
+    print('cute <3')
     score += 1
 else:
     print("answer again ^^ ")
@@ -20,7 +20,7 @@ if answer.lower() == "yes":
     print('I love you too, bae <3')
     score += 1
 else:
-    print("answer again ^^ ")
+    print("what =)) ")
 
 answer = input("Will u marry me? (yes/no) ")
 if answer.lower() == "yes":
